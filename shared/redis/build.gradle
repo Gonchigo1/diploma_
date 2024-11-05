@@ -1,0 +1,8 @@
+dependencies {
+	// spring boot
+	implementation 'org.springframework.boot:spring-boot-starter-cache'
+	implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+
+	// other
+	implementation "org.redisson:redisson:${project.ext.redissonVersion}"
+}

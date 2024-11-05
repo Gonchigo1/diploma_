@@ -1,0 +1,16 @@
+dependencies {
+    // spring boot
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    // jjwt
+    implementation "io.jsonwebtoken:jjwt-api:${project.ext.jjwtVersion}"
+    runtimeOnly "io.jsonwebtoken:jjwt-impl:${project.ext.jjwtVersion}"
+    runtimeOnly "io.jsonwebtoken:jjwt-jackson:${project.ext.jjwtVersion}"
+
+    // otp
+    implementation "com.github.bastiaanjansen:otp-java:${project.ext.otpVersion}"
+
+    // shared
+    api project(':shared:model')
+}

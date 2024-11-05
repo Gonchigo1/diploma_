@@ -1,0 +1,18 @@
+dependencies {
+    // spring boot
+    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-aop'
+
+    // jjwt
+    implementation "io.jsonwebtoken:jjwt-api:${project.ext.jjwtVersion}"
+    runtimeOnly "io.jsonwebtoken:jjwt-impl:${project.ext.jjwtVersion}"
+    runtimeOnly "io.jsonwebtoken:jjwt-jackson:${project.ext.jjwtVersion}"
+
+    // other
+    implementation "org.apache.commons:commons-lang3:${project.ext.commonsLang3Version}"
+
+    // shared
+    api project(':shared:2fa')
+}
