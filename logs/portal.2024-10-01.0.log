@@ -1,0 +1,29 @@
+2024-10-01 11:00:16 INFO  m.a.starter.StarterPortalApplication - Starting StarterPortalApplication using Java 21.0.4 with PID 6471 (/Users/peacedeed/Documents/Github/nepko/portal/backend/build/classes/java/main started by peacedeed in /Users/peacedeed/Documents/Github/nepko)
+2024-10-01 11:00:16 DEBUG m.a.starter.StarterPortalApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-10-01 11:00:16 INFO  m.a.starter.StarterPortalApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-01 11:00:17 INFO  m.a.starter.config.RootConfig - Configuring message source...
+2024-10-01 11:00:17 DEBUG m.a.s.f.JwtAuthorizationTokenFilter - Filter 'authorizationTokenFilter' configured for use
+2024-10-01 11:00:17 INFO  m.a.s.s3.service.S3BucketService - Initializing s3 bucket service with: AKIA4BYH5E22RIBQNRXM
+2024-10-01 11:00:19 INFO  m.a.starter.config.WebMvcConfig - Configuring path matcher
+2024-10-01 11:00:19 INFO  m.a.starter.config.SecurityConfig - Configuring security...
+2024-10-01 11:00:19 INFO  m.a.starter.config.RootConfig - Configuring locale resolver...
+2024-10-01 11:00:19 INFO  m.a.starter.StarterPortalApplication - Started StarterPortalApplication in 5.108 seconds (process running for 5.422)
+2024-10-01 11:02:41 DEBUG mn.astvision.starter.api.AuthApi - Login request: dev@gmail.com
+2024-10-01 11:02:47 DEBUG mn.astvision.starter.api.AuthApi - Login request: dev@gmail.com
+2024-10-01 11:02:56 DEBUG mn.astvision.starter.api.AuthApi - Login request: dev@astvision.mn
+2024-10-01 11:12:40 DEBUG mn.astvision.starter.api.AuthApi - Login request: dev@astvision.mn
+2024-10-01 14:51:08 INFO  m.a.starter.StarterPortalApplication - Starting StarterPortalApplication using Java 21.0.4 with PID 12840 (/Users/peacedeed/Documents/Github/nepko/portal/backend/build/classes/java/main started by peacedeed in /Users/peacedeed/Documents/Github/nepko)
+2024-10-01 14:51:08 DEBUG m.a.starter.StarterPortalApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-10-01 14:51:08 INFO  m.a.starter.StarterPortalApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-01 14:51:08 INFO  m.a.starter.config.RootConfig - Configuring message source...
+2024-10-01 14:51:09 DEBUG m.a.s.f.JwtAuthorizationTokenFilter - Filter 'authorizationTokenFilter' configured for use
+2024-10-01 14:51:09 INFO  m.a.s.s3.service.S3BucketService - Initializing s3 bucket service with: AKIA4BYH5E22RIBQNRXM
+2024-10-01 14:51:10 INFO  m.a.starter.config.WebMvcConfig - Configuring path matcher
+2024-10-01 14:51:10 INFO  m.a.starter.config.SecurityConfig - Configuring security...
+2024-10-01 14:51:10 INFO  m.a.starter.config.RootConfig - Configuring locale resolver...
+2024-10-01 14:51:11 INFO  m.a.starter.StarterPortalApplication - Started StarterPortalApplication in 5.235 seconds (process running for 5.647)
+2024-10-01 15:24:34 DEBUG mn.astvision.starter.api.AuthApi - Login request: dev@astvision.mn
+2024-10-01 15:26:54 DEBUG mn.astvision.starter.api.AuthApi - Login request: dev@astvision.mn
+2024-10-01 17:29:43 DEBUG mn.astvision.starter.api.AuthApi - Login request: dev@astvision.mn
+2024-10-01 19:51:28 DEBUG mn.astvision.starter.api.AuthApi - Login request: dev@astvision.mn
+2024-10-01 19:51:40 DEBUG mn.astvision.starter.api.AuthApi - Login request: dev@astvision.mn

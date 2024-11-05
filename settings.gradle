@@ -1,0 +1,40 @@
+pluginManagement {
+    plugins {
+//        id 'io.freefair.lombok' version '8.6'
+        id 'io.spring.dependency-management' version '1.1.5'
+        id 'org.springframework.boot' version '3.3.1'
+    }
+}
+
+rootProject.name = 'parent'
+
+include 'shared:2fa'
+include 'shared:auth'
+include 'shared:common'
+include 'shared:email'
+include 'shared:google-firebase'
+include 'shared:model'
+include 'shared:redis'
+include 'shared:socket'
+include 'shared:web'
+
+include 'aws:aws-common'
+include 'aws:aws-rekognition'
+include 'aws:aws-s3'
+include 'aws:aws-sqs-ses'
+
+include 'apis:analytics-api'
+
+//include 'back-office:backend'
+
+//include 'cron:cron-shared'
+include 'cron:cron-email'
+include 'cron:cron-email-sqs'
+
+include 'manage:backend'
+include 'portal:backend'
+
+include 'notification:notification-api'
+include 'notification:notification-service'
+
+//include 'portal:backend'
