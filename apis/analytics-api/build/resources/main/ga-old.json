@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "autoland-analytics",
+  "private_key_id": "238d5c9c0c061d55cb50b5455c9c1c97434eaeb5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCVNNaSofZUuFZ1\nfWxg3/5xEmQslJZ4PzkGUv1NOPTEzMCvAz8ZqTqpAu5mQVuZjIkckWSbj8Rx24tp\nbgk9fBLhbw7MsmkxtN+uQrQWGK8uHJq3gLbZERiARcVN1+AB22JsiLVcyTRg389r\nb9k8wW6qa5P23JtvfHa2QQ+GGQ4s0KislSya2JjKvToEDk1GcG+igwX2g0KF45iY\nJluv4R7777ZJb1HTsFuhF9d6zwH9Kwr4moJSCGtsgE5vm0zbRkdkjgGbkQ6zf5cX\nPas9l+40mn5aFBojdVUjZSEO8kokh3riPsWox+H2VVUm77pClpPUs7fxuH7YHrBk\nAKxKaP3pAgMBAAECgf87ctILmnyLROct6MtFzfmTE8DWAl3xiz8tReOm4QqlXu9m\ny+RYVRUKQiC6nU/h3hzDRSrQ0Hd05gSl/TGxTb44FAfRh0Riia6Vv/4Az9T8imka\ntC4mTql0clgqq9iU5NRSaiXY0lIMRyBdrjLgAjIVtMc/lKZZxT2HYGTPCSycreqV\n5xKPeaD4EhW7tPXZ6x7ZVur0Z44/UrN0z/t89iCEMUbSzGLnEcsYeEnoMno+1rfn\ntDy5eyjR5Lbz2M12ZECQRmZ6ZVAREXi4BAtAA+phFgqWYIke7Rmd60gK4GMUY4sF\n/M09LG9lM/ZrOXPFMkVRCJ5GA95RYPBW8AW3wxkCgYEAzZhUKtTXMS/G6afIBNZz\nqx/1pX21w8scsFhkI/1gqowPLDnlHqlopsZlungzBB+A4h05YlkSfQslzko75Q84\nQqsGWYbdcofCXlko5J0FwzKmxuyyGprTYY5SbJAB23d93N5qVdclQawW/2pQGATE\nsGTKS27z8AlR6aR9tHzXt5MCgYEAuclqBaF+a4KeVd9OlNcxi15CqwcNeBLsrxPN\nqmTWwQqu3NgixXv1pWGQhXncSAyOpHryVhzOEMMaafHEaYfNesxJAIssmwKgQ1Dv\nuWk0474u5WxVI+5gJGpbvqGuGXPf5cPAzBz9zAnll/DcMVBFPIC3ZDXiUbycch8x\nvvE+6hMCgYEAnFiQ+RlupBr/G0TaWMN0ptfhCH62sTROltRBIxVWY5urFijY0h5m\nVR1e0xUBRstmSY2Ly/yMkMbfcycEsUaHtDs20vI6iRQwfWs0K9Y1QaHNLk1li9Hd\nmbyPdbt1jh4qesIw/yJjVLO3sXh5fCp0IOgk5oRzwUB1KEZMyep+aT0CgYAMrK/9\n+Fl+jietJhHfV5r6rhCQSGfj1C6vdwNl54E7JDZvvJMKs/07Lh/E615az/h/Qh/8\nPfTU8eqAZc0HggtDoGIullARtyklzoS8OnAwRU4/updIXz/R3CusIq2U8PHKZANo\nKWYrIFW4eucauiYvDXz1ajOpbduicXxcUWsAXwKBgQCxQPWcaoutS/uqlu+ICUDI\nBkhyjUJcOZ0L4S9rCCPfS9GiEmAhqcPhuuwzz+/YrzKMwlplKFM3CIDL4jUEGt+8\nSE8oH+aWCCem1lJxVXzhzMJX8e/ybQDSgcGZZIbQzNerpUzrUtwhZyRc6Qy2QmDl\ntvNXq41O6gtwJ5ZoAFX8bw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "autoland-analytics@autoland-analytics.iam.gserviceaccount.com",
+  "client_id": "102239837058579857698",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/autoland-analytics%40autoland-analytics.iam.gserviceaccount.com"
+}

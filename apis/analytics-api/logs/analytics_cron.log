@@ -1,0 +1,10 @@
+2024-10-08 12:20:40 INFO  m.a.starter.AnalyticsApiApplication - Starting AnalyticsApiApplication using Java 21.0.4 with PID 28394 (/Users/peacedeed/Documents/Github/course-diploma/apis/analytics-api/build/classes/java/main started by peacedeed in /Users/peacedeed/Documents/Github/course-diploma/apis/analytics-api)
+2024-10-08 12:20:40 DEBUG m.a.starter.AnalyticsApiApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-10-08 12:20:40 INFO  m.a.starter.AnalyticsApiApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-08 12:20:41 INFO  m.a.starter.config.RootConfig - Configuring message source...
+2024-10-08 12:20:42 DEBUG m.a.s.f.JwtAuthorizationTokenFilter - Filter 'authorizationTokenFilter' configured for use
+2024-10-08 12:20:43 INFO  m.a.starter.config.WebMvcConfig - Configuring path matcher
+2024-10-08 12:20:43 INFO  m.a.starter.config.SecurityConfig - Configuring security...
+2024-10-08 12:20:44 INFO  m.a.starter.config.RootConfig - Configuring locale resolver...
+2024-10-08 12:20:44 INFO  m.a.starter.AnalyticsApiApplication - Started AnalyticsApiApplication in 7.15 seconds (process running for 7.518)
+2024-10-08 12:20:49 INFO  m.a.starter.cron.AnalyticsCron - Updating google analytics counts

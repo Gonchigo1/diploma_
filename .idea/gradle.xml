@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/apis" />
+            <option value="$PROJECT_DIR$/apis/analytics-api" />
+            <option value="$PROJECT_DIR$/aws" />
+            <option value="$PROJECT_DIR$/aws/aws-common" />
+            <option value="$PROJECT_DIR$/aws/aws-rekognition" />
+            <option value="$PROJECT_DIR$/aws/aws-s3" />
+            <option value="$PROJECT_DIR$/aws/aws-sqs-ses" />
+            <option value="$PROJECT_DIR$/cron" />
+            <option value="$PROJECT_DIR$/cron/cron-email" />
+            <option value="$PROJECT_DIR$/cron/cron-email-sqs" />
+            <option value="$PROJECT_DIR$/manage" />
+            <option value="$PROJECT_DIR$/manage/backend" />
+            <option value="$PROJECT_DIR$/notification" />
+            <option value="$PROJECT_DIR$/notification/notification-api" />
+            <option value="$PROJECT_DIR$/notification/notification-service" />
+            <option value="$PROJECT_DIR$/portal" />
+            <option value="$PROJECT_DIR$/portal/backend" />
+            <option value="$PROJECT_DIR$/shared" />
+            <option value="$PROJECT_DIR$/shared/2fa" />
+            <option value="$PROJECT_DIR$/shared/auth" />
+            <option value="$PROJECT_DIR$/shared/common" />
+            <option value="$PROJECT_DIR$/shared/email" />
+            <option value="$PROJECT_DIR$/shared/google-firebase" />
+            <option value="$PROJECT_DIR$/shared/model" />
+            <option value="$PROJECT_DIR$/shared/redis" />
+            <option value="$PROJECT_DIR$/shared/socket" />
+            <option value="$PROJECT_DIR$/shared/web" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

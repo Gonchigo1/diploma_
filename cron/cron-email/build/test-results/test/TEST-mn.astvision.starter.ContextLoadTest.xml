@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mn.astvision.starter.ContextLoadTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2024-10-08T04:20:11" hostname="Enkh-Uilss-MacBook-Pro.local" time="0.0">
+  <properties/>
+  <testcase name="contextLoads()" classname="mn.astvision.starter.ContextLoadTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+dependencies {
+    // spring boot
+    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    // aws sdk
+    implementation platform("software.amazon.awssdk:bom:${project.ext.awsSdkVersion}")
+    implementation 'software.amazon.awssdk:sqs'
+
+    // other
+    implementation "com.fasterxml.jackson.core:jackson-annotations:${project.ext.jacksonVersion}"
+
+    // shared
+    api project(':shared:model')
+}

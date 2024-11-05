@@ -1,0 +1,16 @@
+dependencies {
+    // spring boot
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    // aws sdk
+    implementation platform("software.amazon.awssdk:bom:${project.ext.awsSdkVersion}")
+    implementation 'software.amazon.awssdk:rekognition'
+    implementation 'software.amazon.awssdk:s3'
+
+    // other
+    implementation "org.apache.commons:commons-lang3:${project.ext.commonsLang3Version}"
+    implementation "commons-io:commons-io:${project.ext.commonsIOVersion}"
+
+    // shared
+    api project(':aws:aws-common')
+}
