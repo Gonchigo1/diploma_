@@ -1,0 +1,64 @@
+@import "../../../styles/vars";
+
+.wrapper {
+  margin: 90px 0 18px;
+
+  :global {
+    .ant-breadcrumb {
+      margin-bottom: 5px;
+
+      a {
+        // font-weight: bold;
+        color: $primary-color;
+      }
+
+      span {
+        color: rgb(0 0 0 / 20%);
+      }
+    }
+  }
+
+  .title {
+    display: block;
+
+    @media (min-width: 768px) {
+      display: flex;
+      align-items: center;
+    }
+
+    .back {
+      flex: 0;
+      margin-bottom: 6px;
+
+      @media (min-width: 768px) {
+        margin-right: 10px;
+        margin-bottom: 0;
+      }
+    }
+
+    .left {
+      flex: 1;
+
+      h3,
+      p {
+        margin: 0;
+      }
+
+      h3 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+      }
+
+      p {
+        font-size: 16px;
+        opacity: 0.7;
+        line-height: 18px;
+      }
+    }
+
+    .right {
+      flex: 0;
+    }
+  }
+}

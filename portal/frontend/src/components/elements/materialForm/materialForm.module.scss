@@ -1,0 +1,41 @@
+@import "../../../styles/vars";
+
+.formItem {
+  margin: 0 !important;
+
+  :global {
+    .ant-form-item {
+      margin-right: 10px;
+    }
+
+    .ant-input-affix-wrapper,
+    .ant-picker,
+    .ant-select-selector,
+    .ant-btn {
+      border-radius: $border-radius !important;
+
+      &:hover {
+        border-color: $primary-color !important;
+        //box-shadow: 0 0 0 1px rgb(1 61 135) !important;
+      }
+    }
+
+    .ant-input {
+      border-radius: $border-radius !important;
+    }
+
+    .ant-select-in-form-item {
+      border-radius: $border-radius !important;
+    }
+
+    .ant-input-affix-wrapper-focused {
+      border-color: $primary-color;
+      //box-shadow: 0 0 0 1px rgb(1 61 135) !important;
+    }
+
+    .ant-select-focused {
+      border-color: $primary-color;
+      //box-shadow: 0 0 0 1px rgb(1 61 135) !important;
+    }
+  }
+}

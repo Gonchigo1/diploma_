@@ -1,0 +1,68 @@
+@import "../../../../styles/vars";
+
+.wrapper {
+  margin-top: 20px;
+
+  .bookItem {
+    border: 1px solid $border-color-base;
+    padding: 10px 22px;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow-base;
+
+    .image {
+      margin-bottom: 10px;
+
+      img {
+        height: 260px;
+        width: 100%;
+      }
+    }
+
+    .type {
+      margin-bottom: 10px;
+    }
+
+    .name, .type, .more {
+      margin-top: 4px;
+      font-size: 13px;
+      line-height: 16px;
+    }
+  }
+
+  .lessonItem {
+    display: flex;
+    align-items: center;
+    padding: 4px 10px;
+    border-bottom: 1px solid $border-color-base;
+
+    &:last-child {
+      border-bottom: 0 !important;
+    }
+
+    .name {
+      flex: 1;
+      font-size: 13px;
+      font-weight: 500;
+
+      span {
+        color: $primary-color;
+        font-weight: 600;
+        margin-left: 4px;
+      }
+    }
+
+    .action {
+      flex: 1;
+      font-size: 13px;
+      font-weight: 500;
+
+
+      span {
+        color: $primary-color;
+        font-weight: 600;
+        margin-left: 4px;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "useDefineForClassFields": true,
+    "baseUrl": ".",
+    "paths": {
+      "@commonComponent/*": ["src/components/common/*"],
+      "@components/*": ["src/components/*"],
+      "@context/*": ["src/context/*"],
+      "@element": ["src/components/elements"],
+      "@pageComponent/*": ["src/components/pages/*"],
+      "@pages/*": ["src/pages/*"],
+      "@services/*": ["src/common/services/*"],
+      "@stores/*": ["src/common/stores/*"],
+      "@util/*": ["src/common/util/*"]
+    }
+  },
+  "include": [
+    "**/*.js",
+    "**/*.jsx"],
+  "exclude": [
+    "../node_modules"
+  ]
+}

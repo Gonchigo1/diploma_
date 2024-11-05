@@ -1,0 +1,15 @@
+@import "../../../styles/vars";
+
+.wrapper {
+  margin-top: 70px;
+  padding: 10px 0;
+  background-color: $background-color-base;
+
+  :global(.ant-breadcrumb span) {
+    color: $primary-color;
+  }
+
+  :global(.ant-breadcrumb span a) {
+    color: $text-color-base;
+  }
+}

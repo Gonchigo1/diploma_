@@ -1,0 +1,156 @@
+@import "../../../styles/vars";
+
+.wrapper {
+  position: fixed;
+  height: auto !important;
+  margin: 0 auto;
+  z-index: 1;
+  width: 100%;
+  padding: 0 !important;
+  background: white !important;
+  backdrop-filter: blur(5px);
+  line-height: 70px !important;
+  box-shadow: 0 6px 12px rgb(0 0 0 / 10%);
+  transition: 0.3s all ease-in-out;
+  //border-bottom: 1px solid $border-color-base;
+
+  @media (min-width: 572px) {
+    padding: 0 !important;
+  }
+
+  @media (min-width: 768px) {
+    padding: 0 25px !important;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+
+    .logo {
+      flex: 0;
+
+      img {
+        height: 34px;
+
+        @media (min-width: 576px) {
+          height: 34px;
+        }
+
+        @media (min-width: 768px) {
+          height: 52px;
+        }
+      }
+    }
+
+    .menu {
+      flex: 1;
+
+      @media (min-width: 576px) {
+        display: none;
+      }
+
+      @media (min-width: 992px) {
+        display: inline-block;
+      }
+
+      :global {
+        .ant-menu-root {
+          background-color: transparent;
+          border: 0;
+        }
+
+        .ant-menu-item-selected {
+          color: black;
+          font-weight: 500;
+
+          &::after {
+            border-bottom-color: black;
+          }
+        }
+
+        .ant-menu-item {
+          padding-inline: 0 !important;
+
+          &:first-child {
+            margin-left: 20px;
+          }
+        }
+
+        .ant-menu-title-content {
+          position: relative;
+          padding: 0 16px;
+
+          &::after {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 20%;
+            bottom: 30%;
+            height: 14px;
+            width: 1px;
+            background-color: $border-color-base;
+          }
+        }
+      }
+    }
+
+    .right {
+      display: flex;
+      flex: 0;
+
+      .loginButton {
+        display: inline-block;
+        border-radius: $border-radius;
+        cursor: pointer;
+        color: white;
+        font-weight: 600;
+
+        .signIn {
+          display: flex;
+          align-items: center;
+
+          img {
+            height: 20px;
+            margin-right: 6px;
+          }
+
+          span {
+            max-width: 250px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+          }
+        }
+
+        :global {
+          .ant-select-arrow {
+            top: 55%;
+          }
+        }
+      }
+    }
+
+    &.mobile {
+      .logo {
+        position: relative;
+      }
+    }
+
+    &.full {
+      width: 100%;
+      border-radius: 0;
+    }
+  }
+}
+
+.toggle {
+  float: left;
+  height: 71px !important;
+  width: 54px !important;
+  margin-right: 15px;
+  background-color: transparent !important;
+  border-color: transparent !important;
+  border-radius: 0 !important;
+  color: black !important;
+  box-shadow: none;
+}

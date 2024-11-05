@@ -1,0 +1,65 @@
+@import "../../../../../styles/vars";
+
+.wrapper {
+  .header {
+    margin-bottom: 15px;
+
+    h1 {
+      margin: 0;
+      font-size: 24px;
+      font-weight: 500;
+    }
+
+    .checkbox {
+      display: flex;
+      flex-direction: column;
+
+      :global {
+        .ant-checkbox-wrapper {
+          margin-bottom: 6px;
+        }
+      }
+    }
+  }
+
+  .content {
+    .itemWrapper {
+      padding: 5px 0;
+      border: 0;
+      position: relative;
+
+      >div {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        cursor: pointer;
+
+        .name {
+          flex: 1;
+          padding: 0 5px;
+          line-height: 18px !important;
+          transition: 0.3s all ease-in-out;
+        }
+      }
+
+      &.active {
+        >div {
+          .name, .count {
+            font-weight: 500;
+            color: black;
+          }
+
+          &::before {
+            content: '';
+            position: absolute;
+            top: 10px;
+            left: -2px;
+            width: 2px;
+            height: 14px;
+            background-color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@import "../../styles/vars";
+
+.wrapper {
+  position: relative;
+
+  .content {
+    background-color: white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
+    @media (min-width: 576px) {
+      margin-top: -70px;
+    }
+
+    @media (min-width: 768px) {
+      margin-top: -50px;
+    }
+
+    @media (min-width: 992px) {
+      margin-top: -40px;
+    }
+
+    @media (min-width: 1200px) {
+      margin-top: 0;
+    }
+  }
+}

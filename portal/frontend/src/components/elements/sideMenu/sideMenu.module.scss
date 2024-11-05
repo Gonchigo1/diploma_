@@ -1,0 +1,15 @@
+@import "../../../styles/vars";
+
+.wrapper {
+  padding: 0;
+
+  :global {
+    .ant-menu {
+      border: 0 !important;
+
+      .ant-menu-item {
+        padding: 0 !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="250" height="250" viewBox="0 0 250 250">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ed0017;
+      }
+
+      .cls-2 {
+        fill: #fbccd1;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-family: 'Nunito_736.000wght', Nunito;
+        font-size: 45.75px;
+        font-variation-settings: 'wght' 736;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M73.72,208.33H203.33c2.76,0,5,2.24,5,5v2.82c0,2.76-2.24,5-5,5H73.74c-17.71,0-32.07-14.36-32.07-32.07V62.42c0-5.21,1.21-10.35,3.54-15.01h0c5.69-11.37,17.31-18.56,30.02-18.56h115.71c2.59,0,4.75,1.97,4.98,4.55l11.91,131.02c.27,2.93-2.04,5.45-4.98,5.45H73.72c-10.62,0-19.23,8.61-19.23,19.23h0c0,10.62,8.61,19.23,19.23,19.23Z"/>
+  <path class="cls-2" d="M203.09,196.81l-131.08-6.26c-1.44-.07-2.57-1.25-2.57-2.69h0c0-1.44,1.13-2.62,2.57-2.69l131.08-6.26c2.85-.14,5.24,2.14,5.24,4.99v7.92c0,2.86-2.39,5.13-5.24,4.99Z"/>
+  <text class="cls-3" transform="translate(78.76 99.42)"><tspan x="0" y="0">АБВ</tspan></text>
+  <rect class="cls-2" x="74.35" y="113.38" width="61.91" height="6.83" rx="3.42" ry="3.42"/>
+  <rect class="cls-2" x="74.35" y="127.06" width="47.36" height="6.83" rx="3.42" ry="3.42"/>
+</svg>

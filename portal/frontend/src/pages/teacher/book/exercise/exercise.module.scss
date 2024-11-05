@@ -1,0 +1,73 @@
+@import "../../../../styles/vars";
+
+.wrapper {
+  margin-top: 20px;
+
+  .action {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .title {
+      h3 {
+        margin: 0 0 0 10px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+      }
+    }
+  }
+
+  .list {
+    display: flex;
+    flex: 1;
+
+    .detail {
+      position: relative;
+      background-color: $background-color;
+      padding: 10px 0;
+      width: 210px;
+      overflow-y: auto;
+      box-shadow: $box-shadow-base;
+      border-radius: $border-radius;
+      //border-right: 1px solid $border-color-base;
+
+      @media (max-width: 1600px) {
+        width: 250px;
+      }
+
+      .title {
+        display: flex;
+        align-items: center;
+        padding: 14px 20px;
+        cursor: pointer;
+        border-bottom: 1px solid $border-color-base;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          background-color: lighten($background-color, 10%);
+        }
+
+        &.active {
+          color: $primary-color;
+          font-weight: 600;
+        }
+
+        .name {
+          flex: 1;
+          font-size: 15px;
+          line-height: 16px;
+        }
+      }
+    }
+
+    .content {
+      flex: 1;
+      background-color: white;
+      padding: 0 24px 24px;
+      overflow-y: auto;
+      //border-left: 1px solid $border-color-base;
+      //height: 100%;
+    }
+  }
+}

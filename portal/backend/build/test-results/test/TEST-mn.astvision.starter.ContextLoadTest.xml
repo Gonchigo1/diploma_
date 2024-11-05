@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mn.astvision.starter.ContextLoadTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-08T04:20:22" hostname="Enkh-Uilss-MacBook-Pro.local" time="0.384">
+  <properties/>
+  <testcase name="contextLoads()" classname="mn.astvision.starter.ContextLoadTest" time="0.384"/>
+  <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.1)
+
+2024-10-08 12:20:19 INFO  m.astvision.starter.ContextLoadTest - Starting ContextLoadTest using Java 21.0.4 with PID 28348 (started by peacedeed in /Users/peacedeed/Documents/Github/course-diploma/portal/backend)
+2024-10-08 12:20:19 DEBUG m.astvision.starter.ContextLoadTest - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-10-08 12:20:19 INFO  m.astvision.starter.ContextLoadTest - No active profile set, falling back to 1 default profile: "default"
+2024-10-08 12:20:20 INFO  m.a.starter.config.RootConfig - Configuring message source...
+2024-10-08 12:20:20 INFO  m.a.s.s3.service.S3BucketService - Initializing s3 bucket service with: AKIA34AMDBJRBQDOXFLX
+2024-10-08 12:20:22 INFO  m.a.starter.config.WebMvcConfig - Configuring path matcher
+2024-10-08 12:20:22 INFO  m.a.starter.config.SecurityConfig - Configuring security...
+2024-10-08 12:20:22 INFO  m.a.starter.config.RootConfig - Configuring locale resolver...
+2024-10-08 12:20:22 INFO  m.astvision.starter.ContextLoadTest - Started ContextLoadTest in 7.313 seconds (process running for 8.159)
+2024-10-08 12:20:23 INFO  m.astvision.starter.ContextLoadTest - Test context loaded
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/peacedeed/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.17/e3c251a39dc90badaf71c83427ba46840f219d8d/byte-buddy-agent-1.14.17.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>

@@ -1,0 +1,27 @@
+@import "../../../styles/vars";
+
+.wrapper {
+  position: relative;
+  background-color: $secondary-color;
+
+  .footer {
+    display: flex;
+    align-items: center;
+
+    p {
+      flex: 1;
+      color: white;
+      margin: 0;
+    }
+
+    .right {
+      flex: 1;
+      text-align: end;
+      cursor: pointer;
+
+      img {
+        height: 40px;
+      }
+    }
+  }
+}

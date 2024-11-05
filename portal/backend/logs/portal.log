@@ -1,0 +1,33 @@
+2024-10-08 12:20:19 INFO  m.astvision.starter.ContextLoadTest - Starting ContextLoadTest using Java 21.0.4 with PID 28348 (started by peacedeed in /Users/peacedeed/Documents/Github/course-diploma/portal/backend)
+2024-10-08 12:20:19 DEBUG m.astvision.starter.ContextLoadTest - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-10-08 12:20:19 INFO  m.astvision.starter.ContextLoadTest - No active profile set, falling back to 1 default profile: "default"
+2024-10-08 12:20:20 INFO  m.a.starter.config.RootConfig - Configuring message source...
+2024-10-08 12:20:20 INFO  m.a.s.s3.service.S3BucketService - Initializing s3 bucket service with: AKIA34AMDBJRBQDOXFLX
+2024-10-08 12:20:22 INFO  m.a.starter.config.WebMvcConfig - Configuring path matcher
+2024-10-08 12:20:22 INFO  m.a.starter.config.SecurityConfig - Configuring security...
+2024-10-08 12:20:22 INFO  m.a.starter.config.RootConfig - Configuring locale resolver...
+2024-10-08 12:20:22 INFO  m.astvision.starter.ContextLoadTest - Started ContextLoadTest in 7.313 seconds (process running for 8.159)
+2024-10-08 12:20:23 INFO  m.astvision.starter.ContextLoadTest - Test context loaded
+2024-10-08 12:20:39 INFO  m.a.starter.StarterPortalApplication - Starting StarterPortalApplication using Java 21.0.4 with PID 28396 (/Users/peacedeed/Documents/Github/course-diploma/portal/backend/build/classes/java/main started by peacedeed in /Users/peacedeed/Documents/Github/course-diploma/portal/backend)
+2024-10-08 12:20:39 DEBUG m.a.starter.StarterPortalApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-10-08 12:20:39 INFO  m.a.starter.StarterPortalApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-08 12:20:40 INFO  m.a.starter.config.RootConfig - Configuring message source...
+2024-10-08 12:20:41 DEBUG m.a.s.f.JwtAuthorizationTokenFilter - Filter 'authorizationTokenFilter' configured for use
+2024-10-08 12:20:41 INFO  m.a.s.s3.service.S3BucketService - Initializing s3 bucket service with: AKIA34AMDBJRBQDOXFLX
+2024-10-08 12:20:42 INFO  m.a.starter.config.WebMvcConfig - Configuring path matcher
+2024-10-08 12:20:42 INFO  m.a.starter.config.SecurityConfig - Configuring security...
+2024-10-08 12:20:43 INFO  m.a.starter.config.RootConfig - Configuring locale resolver...
+2024-10-08 12:20:45 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+

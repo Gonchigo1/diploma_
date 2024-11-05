@@ -1,0 +1,99 @@
+@import "../../../../styles/vars";
+
+.wrapper {
+  padding: 50px 0 25px 0;
+
+  h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  .itemWrapper {
+    display: flex;
+    width: 100%;
+    min-height: auto;
+    margin-bottom: 25px;
+    padding: 25px;
+    background-color: $primary-color;
+    border-radius: $border-radius;
+    cursor: pointer;
+    align-items: center;
+    height: 300px;
+
+    @media (min-width: 576px) {
+      display: flex;
+      min-height: auto;
+      width: 100%;
+      padding: 25px;
+      align-items: center;
+    }
+
+    @media (min-width: 768px) {
+      display: block;
+      min-height: 300px;
+      width: 100%;
+      padding: 35px 25px 25px 25px;
+    }
+
+    .header {
+      min-height: auto;
+
+      @media (min-width: 576px) {
+        min-height: auto;
+      }
+
+      @media (min-width: 768px) {
+        min-height: 140px;
+      }
+
+      .name {
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 20px;
+        color: white;
+      }
+
+      .subtitle {
+        color: white;
+        line-height: 16px;
+        font-size: 14px;
+        font-weight: 500;
+      }
+    }
+
+    .icon {
+      flex: 0;
+      margin-bottom: 10px;
+      text-align: center;
+
+      .lottie,
+      img {
+        width: 100px;
+        margin: 0 auto;
+
+        @media (min-width: 576px) {
+          width: 100px;
+        }
+
+        @media (min-width: 768px) {
+          width: 50%;
+        }
+      }
+    }
+
+    .more {
+      display: none;
+      color: white;
+      text-align: center;
+
+      @media (min-width: 576px) {
+        display: none;
+      }
+
+      @media (min-width: 768px) {
+        display: block;
+      }
+    }
+  }
+}
