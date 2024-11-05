@@ -1,0 +1,11 @@
+{
+  "token": {
+    "colorPrimary": "#e20000",
+    "colorPrimaryBg": "#f7f7f7",
+    "colorLink": "#084bc1",
+    "colorText": "#000000",
+    "fontFamily": "Montserrat",
+    "borderRadius": 8,
+    "fontSize": 15
+  }
+}

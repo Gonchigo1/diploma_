@@ -1,0 +1,23 @@
+@import "../../styles/vars";
+
+.main {
+  width: 368px;
+  margin: 0 auto;
+
+  .card {
+    padding: 35px 25px;
+    background-color: transparent;
+    border-radius: 12px;
+    box-shadow: $box-shadow-base;
+
+    h2 {
+      color: white;
+      font-weight: bold;
+    }
+
+    p {
+      color: white;
+      opacity: 0.6;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@import "../../styles/vars";
+
+.wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 100px 0;
+  text-align: center;
+
+  img {
+    width: 180px;
+    margin-bottom: 25px;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+
+  p {
+    opacity: 0.6;
+  }
+}

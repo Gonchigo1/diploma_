@@ -1,0 +1,25 @@
+@import "../../../styles/vars";
+
+.itemHeader {
+  box-shadow: $box-shadow-base;
+  border-radius: $border-radius;
+  padding: 16px 20px;
+  background-color: white;
+
+  .image {
+    margin-bottom: 16px;
+
+    img {
+      height: 200px;
+      width: 100%;
+       
+      @media (min-width: 1600px) {
+        height: 240px;
+      }
+    }
+  }
+
+  .name, .type {
+    line-height: 20px;
+  }
+}
