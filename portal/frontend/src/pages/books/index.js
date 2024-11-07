@@ -5,7 +5,7 @@ const Books = observer(() => {
   return (
     <>
       <div className={styles.wrapper}>
-        <div className={'container'}>
+        <div className={'tes'}>
 
         </div>
       </div>
