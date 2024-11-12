@@ -13,24 +13,33 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/web/mn.astvision.starter.parent.shared.web.main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/web/mn.astvision.starter.parent.shared.web.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/apis/analytics-api/parent.apis.analytics-api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/apis/analytics-api/parent.apis.analytics-api.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/apis/analytics-api/parent.apis.analytics-api.test.iml" filepath="$PROJECT_DIR$/.idea/modules/apis/analytics-api/parent.apis.analytics-api.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aws/aws-common/parent.aws.aws-common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/aws/aws-common/parent.aws.aws-common.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/aws/aws-rekognition/parent.aws.aws-rekognition.main.iml" filepath="$PROJECT_DIR$/.idea/modules/aws/aws-rekognition/parent.aws.aws-rekognition.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aws/aws-s3/parent.aws.aws-s3.main.iml" filepath="$PROJECT_DIR$/.idea/modules/aws/aws-s3/parent.aws.aws-s3.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/aws/aws-sqs-ses/parent.aws.aws-sqs-ses.main.iml" filepath="$PROJECT_DIR$/.idea/modules/aws/aws-sqs-ses/parent.aws.aws-sqs-ses.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cron/cron-email-sqs/parent.cron.cron-email-sqs.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cron/cron-email-sqs/parent.cron.cron-email-sqs.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cron/cron-email-sqs/parent.cron.cron-email-sqs.test.iml" filepath="$PROJECT_DIR$/.idea/modules/cron/cron-email-sqs/parent.cron.cron-email-sqs.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cron/cron-email/parent.cron.cron-email.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cron/cron-email/parent.cron.cron-email.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cron/cron-email/parent.cron.cron-email.test.iml" filepath="$PROJECT_DIR$/.idea/modules/cron/cron-email/parent.cron.cron-email.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/manage/backend/parent.manage.backend.main.iml" filepath="$PROJECT_DIR$/.idea/modules/manage/backend/parent.manage.backend.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/manage/backend/parent.manage.backend.test.iml" filepath="$PROJECT_DIR$/.idea/modules/manage/backend/parent.manage.backend.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/notification/notification-api/parent.notification.notification-api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/notification/notification-api/parent.notification.notification-api.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/notification/notification-api/parent.notification.notification-api.test.iml" filepath="$PROJECT_DIR$/.idea/modules/notification/notification-api/parent.notification.notification-api.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/notification/notification-service/parent.notification.notification-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/notification/notification-service/parent.notification.notification-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/portal/backend/parent.portal.backend.main.iml" filepath="$PROJECT_DIR$/.idea/modules/portal/backend/parent.portal.backend.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/portal/backend/parent.portal.backend.test.iml" filepath="$PROJECT_DIR$/.idea/modules/portal/backend/parent.portal.backend.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/2fa/parent.shared.2fa.main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/2fa/parent.shared.2fa.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/2fa/parent.shared.2fa.test.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/2fa/parent.shared.2fa.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/auth/parent.shared.auth.main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/auth/parent.shared.auth.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/common/parent.shared.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/common/parent.shared.common.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/common/parent.shared.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/common/parent.shared.common.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/email/parent.shared.email.main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/email/parent.shared.email.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/google-firebase/parent.shared.google-firebase.main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/google-firebase/parent.shared.google-firebase.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/model/parent.shared.model.main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/model/parent.shared.model.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/model/parent.shared.model.test.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/model/parent.shared.model.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/redis/parent.shared.redis.main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/redis/parent.shared.redis.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/socket/parent.shared.socket.main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/socket/parent.shared.socket.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/web/parent.shared.web.main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/web/parent.shared.web.main.iml" />
     </modules>
   </component>
 </project>
