@@ -20,12 +20,9 @@ import org.springframework.data.mongodb.core.convert.MongoCustomConversions;
 import org.springframework.data.mongodb.core.mapping.MongoMappingContext;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
-/**
- * @author digz6666
- */
 @Configuration
 @EnableMongoRepositories(
-        basePackages = {"mn.astvision.starter.repository"},
+        basePackages = {"mn.astvision.starter.repository.auth"},
         mongoTemplateRef = "mongoTemplate"
 )
 @EnableMongoAuditing
