@@ -28,5 +28,5 @@ dependencies {
     // shared
     api project(':shared:common')
     api project(':shared:web')
-    api project(':aws:aws-s3')
+//    api project(':aws:aws-s3')
 }

@@ -21,6 +21,6 @@ dependencies {
     implementation 'software.amazon.awssdk:sqs'
 
     // shared
-    api project(':aws:aws-sqs-ses')
+//    api project(':aws:aws-sqs-ses')
     api project(':shared:common')
 }

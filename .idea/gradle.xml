@@ -11,11 +11,6 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/apis" />
             <option value="$PROJECT_DIR$/apis/analytics-api" />
-            <option value="$PROJECT_DIR$/aws" />
-            <option value="$PROJECT_DIR$/aws/aws-common" />
-            <option value="$PROJECT_DIR$/aws/aws-rekognition" />
-            <option value="$PROJECT_DIR$/aws/aws-s3" />
-            <option value="$PROJECT_DIR$/aws/aws-sqs-ses" />
             <option value="$PROJECT_DIR$/cron" />
             <option value="$PROJECT_DIR$/cron/cron-email" />
             <option value="$PROJECT_DIR$/cron/cron-email-sqs" />
