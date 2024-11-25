@@ -3,6 +3,8 @@ package mn.astvision.starter.s3.service;
 /**
  * @author Tergel
  */
+
+
 public class S3BucketFolder {
 
     public static final String MINT_REQUEST = "mint_request";

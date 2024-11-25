@@ -19,7 +19,6 @@ public class Book extends BaseEntityWithUser {
         private String name;
         private String type;
         private List<FileData> image;
-//        private List<FileData> file;
 
         @Transient
         private int countLessons;
@@ -28,17 +27,4 @@ public class Book extends BaseEntityWithUser {
         @Transient
         private int countExercises;
 
-//        private List<FileData> video ;
-//        private List<FileData> audio;
-
-
-//    private double price;
-//    private int residual;
-//    private int age;
-//    private String type2;
-//    private List<String> category;
-//    private String writer;
-//    private String drawer;
-//    private String content;
-//    private String size;
 }

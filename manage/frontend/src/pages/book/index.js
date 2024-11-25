@@ -43,7 +43,7 @@ const Book = observer(() => {
   }, [session])
 
   const refreshTable = (params) => {
-    referenceDataStore.fetchSelect({typeCode: 'BOOK_TYPE'}, session?.token)
+    // referenceDataStore.fetchSelect({typeCode: 'BOOK_TYPE'}, session?.token)
     bookStore?.fetchList(session?.token, params)
   }
   const handleOpenModal = (editData = null) => {
