@@ -1,9 +1,136 @@
-2024-11-15 10:55:02 INFO  m.a.starter.StarterPortalApplication - Starting StarterPortalApplication using Java 21.0.5 with PID 11116 (D:\github\diploma_\portal\backend\build\classes\java\main started by test in D:\github\diploma_)
-2024-11-15 10:55:02 DEBUG m.a.starter.StarterPortalApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
-2024-11-15 10:55:02 INFO  m.a.starter.StarterPortalApplication - No active profile set, falling back to 1 default profile: "default"
-2024-11-15 10:55:11 INFO  m.a.starter.config.RootConfig - Configuring message source...
-2024-11-15 10:55:12 DEBUG m.a.s.f.JwtAuthorizationTokenFilter - Filter 'authorizationTokenFilter' configured for use
-2024-11-15 10:55:14 INFO  m.a.starter.config.WebMvcConfig - Configuring path matcher
-2024-11-15 10:55:14 INFO  m.a.starter.config.SecurityConfig - Configuring security...
-2024-11-15 10:55:15 INFO  m.a.starter.config.RootConfig - Configuring locale resolver...
-2024-11-15 10:55:15 INFO  m.a.starter.StarterPortalApplication - Started StarterPortalApplication in 13.212 seconds (process running for 14.159)
+2024-11-28 07:18:37 INFO  m.a.starter.StarterPortalApplication - Starting StarterPortalApplication using Java 21.0.5 with PID 7516 (C:\Users\gonchig\Documents\GitHub\diploma_\portal\backend\build\classes\java\main started by gonchig in C:\Users\gonchig\Documents\GitHub\diploma_)
+2024-11-28 07:18:37 DEBUG m.a.starter.StarterPortalApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-11-28 07:18:37 INFO  m.a.starter.StarterPortalApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-28 07:18:40 INFO  m.a.starter.config.RootConfig - Configuring message source...
+2024-11-28 07:18:42 DEBUG m.a.s.f.JwtAuthorizationTokenFilter - Filter 'authorizationTokenFilter' configured for use
+2024-11-28 07:18:42 ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileUploadApi': Resolution of declared constructors on bean Class [mn.astvision.starter.api.FileUploadApi] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528] failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:383)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1296)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at mn.astvision.starter.StarterPortalApplication.main(StarterPortalApplication.java:13)
+Caused by: java.lang.NoClassDefFoundError: mn/astvision/starter/s3/service/S3BucketService
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3549)
+	at java.base/java.lang.Class.getDeclaredConstructors(Class.java:2727)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:378)
+	... 18 common frames omitted
+Caused by: java.lang.ClassNotFoundException: mn.astvision.starter.s3.service.S3BucketService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 22 common frames omitted
+2024-11-28 07:23:28 INFO  m.a.starter.StarterPortalApplication - Starting StarterPortalApplication using Java 21.0.5 with PID 16408 (C:\Users\gonchig\Documents\GitHub\diploma_\portal\backend\build\classes\java\main started by gonchig in C:\Users\gonchig\Documents\GitHub\diploma_)
+2024-11-28 07:23:28 DEBUG m.a.starter.StarterPortalApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-11-28 07:23:28 INFO  m.a.starter.StarterPortalApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-28 07:23:31 INFO  m.a.starter.config.RootConfig - Configuring message source...
+2024-11-28 07:23:33 DEBUG m.a.s.f.JwtAuthorizationTokenFilter - Filter 'authorizationTokenFilter' configured for use
+2024-11-28 07:23:34 INFO  m.a.s.s3.service.S3BucketService - Initializing s3 bucket service with: null
+2024-11-28 07:23:34 ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileUploadApi' defined in file [C:\Users\gonchig\Documents\GitHub\diploma_\portal\backend\build\classes\java\main\mn\astvision\starter\api\FileUploadApi.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 's3BucketService': Invocation of init method failed
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1357)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at mn.astvision.starter.StarterPortalApplication.main(StarterPortalApplication.java:13)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 's3BucketService': Invocation of init method failed
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1780)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)
+	... 19 common frames omitted
+Caused by: java.lang.NullPointerException: Access key ID cannot be blank.
+	at software.amazon.awssdk.utils.Validate.notNull(Validate.java:119)
+	at software.amazon.awssdk.auth.credentials.AwsBasicCredentials.<init>(AwsBasicCredentials.java:68)
+	at software.amazon.awssdk.auth.credentials.AwsBasicCredentials.<init>(AwsBasicCredentials.java:43)
+	at software.amazon.awssdk.auth.credentials.AwsBasicCredentials$Builder.build(AwsBasicCredentials.java:238)
+	at software.amazon.awssdk.auth.credentials.AwsBasicCredentials.create(AwsBasicCredentials.java:100)
+	at mn.astvision.starter.s3.service.S3BucketService.init(S3BucketService.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:401)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:219)
+	... 32 common frames omitted
+2024-11-28 07:24:05 INFO  m.a.starter.StarterPortalApplication - Starting StarterPortalApplication using Java 21.0.5 with PID 18100 (C:\Users\gonchig\Documents\GitHub\diploma_\portal\backend\build\classes\java\main started by gonchig in C:\Users\gonchig\Documents\GitHub\diploma_)
+2024-11-28 07:24:05 DEBUG m.a.starter.StarterPortalApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-11-28 07:24:05 INFO  m.a.starter.StarterPortalApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-28 07:24:08 INFO  m.a.starter.config.RootConfig - Configuring message source...
+2024-11-28 07:24:10 DEBUG m.a.s.f.JwtAuthorizationTokenFilter - Filter 'authorizationTokenFilter' configured for use
+2024-11-28 07:24:10 INFO  m.a.s.s3.service.S3BucketService - Initializing s3 bucket service with: AKIAWOOXUDO4STHDWH76
+2024-11-28 07:26:23 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 3 of constructor in mn.astvision.starter.service.article.ArticleCrudService required a bean of type 'mn.astvision.starter.dto.MoveFileRequest' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'mn.astvision.starter.dto.MoveFileRequest' in your configuration.
+
+2024-11-28 07:35:10 INFO  m.a.starter.StarterPortalApplication - Starting StarterPortalApplication using Java 21.0.5 with PID 13824 (C:\Users\gonchig\Documents\GitHub\diploma_\portal\backend\build\classes\java\main started by gonchig in C:\Users\gonchig\Documents\GitHub\diploma_)
+2024-11-28 07:35:10 DEBUG m.a.starter.StarterPortalApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-11-28 07:35:10 INFO  m.a.starter.StarterPortalApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-28 07:35:13 INFO  m.a.starter.config.RootConfig - Configuring message source...
+2024-11-28 07:35:15 DEBUG m.a.s.f.JwtAuthorizationTokenFilter - Filter 'authorizationTokenFilter' configured for use
+2024-11-28 07:35:16 INFO  m.a.s.s3.service.S3BucketService - Initializing s3 bucket service with: AKIAWOOXUDO4STHDWH76
+2024-11-28 07:36:50 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 3 of constructor in mn.astvision.starter.service.article.ArticleCrudService required a bean of type 'mn.astvision.starter.dto.MoveFileRequest' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'mn.astvision.starter.dto.MoveFileRequest' in your configuration.
+

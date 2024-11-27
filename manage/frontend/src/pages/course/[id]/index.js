@@ -149,6 +149,7 @@ const CreateTopic = observer(({editData}) => {
       exercise:currentExercise?.id,
       audio:'',
       video:'',
+      pdf:'',
       ...fields,
     }
     exerciseStore
@@ -345,6 +346,21 @@ const CreateTopic = observer(({editData}) => {
           return (
             <video controls style={{width: '200px' , height:'200px'}}>
               <source src={videos[0].url} type='video/mp4' />
+              Таны веб хөтөч тухайн видео тоглуулахыг дэмжихгүй байна.
+            </video>
+          )
+        }
+        return <span>Видео байхгүй</span>
+      },
+    },
+    {
+      title: 'Pdf файл',
+      dataIndex: 'pdf',
+      render:(pdf) => {
+        if (pdf && pdf.length > 0 && pdf[0].url) {
+          return (
+            <video controls style={{width: '200px' , height:'200px'}}>
+              <source src={pdf[0].url} type='video/mp4' />
               Таны веб хөтөч тухайн видео тоглуулахыг дэмжихгүй байна.
             </video>
           )

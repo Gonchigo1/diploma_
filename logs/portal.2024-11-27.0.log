@@ -1,0 +1,9 @@
+2024-11-15 10:55:02 INFO  m.a.starter.StarterPortalApplication - Starting StarterPortalApplication using Java 21.0.5 with PID 11116 (D:\github\diploma_\portal\backend\build\classes\java\main started by test in D:\github\diploma_)
+2024-11-15 10:55:02 DEBUG m.a.starter.StarterPortalApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-11-15 10:55:02 INFO  m.a.starter.StarterPortalApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-15 10:55:11 INFO  m.a.starter.config.RootConfig - Configuring message source...
+2024-11-15 10:55:12 DEBUG m.a.s.f.JwtAuthorizationTokenFilter - Filter 'authorizationTokenFilter' configured for use
+2024-11-15 10:55:14 INFO  m.a.starter.config.WebMvcConfig - Configuring path matcher
+2024-11-15 10:55:14 INFO  m.a.starter.config.SecurityConfig - Configuring security...
+2024-11-15 10:55:15 INFO  m.a.starter.config.RootConfig - Configuring locale resolver...
+2024-11-15 10:55:15 INFO  m.a.starter.StarterPortalApplication - Started StarterPortalApplication in 13.212 seconds (process running for 14.159)

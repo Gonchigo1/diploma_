@@ -21,7 +21,7 @@ const CreateLesson = ({modalOpen, onClose, handleCreate}) => {
     form
       .validateFields()
       .then((fieldsValue) => {
-        const {video, audio, ...rest} = fieldsValue
+        const {video, audio,pdf, ...rest} = fieldsValue
 
         const payload = {
           video: video ? video.filter(item => item.status === 'done').map(item => ({
@@ -30,6 +30,11 @@ const CreateLesson = ({modalOpen, onClose, handleCreate}) => {
             url: item.response,
           })) : [],
           audio: audio ? audio.filter(item => item.status === 'done').map(item => ({
+            uid: item.uid,
+            name: item.name,
+            url: item.response,
+          })) : [],
+          pdf: pdf ? pdf.filter(item => item.status === 'done').map(item => ({
             uid: item.uid,
             name: item.name,
             url: item.response,
@@ -98,6 +103,23 @@ const CreateLesson = ({modalOpen, onClose, handleCreate}) => {
             onChange={handleUploadChange('video')}
           >
             {form.getFieldValue('video')?.length >= 1 ? null : <Button icon={<UploadOutlined />}>Видео оруулах</Button>}
+          </Upload>
+        </Form.Item>
+        <Form.Item
+          name='pdf'
+          label='PDF файл'
+          valuePropName='fileList'
+          getValueFromEvent={normFile}
+        >
+          <Upload
+            name='file'
+            accept='.pdf'
+            listType='text'
+            headers={{'X-Auth-Token': session?.token}}
+            action={getCdnUploadUrl()}
+            onChange={handleUploadChange('pdf')}
+          >
+            {form.getFieldValue('pdf')?.length >= 1 ? null : <Button icon={<UploadOutlined />}>PDF оруулах</Button>}
           </Upload>
         </Form.Item>
       </Form>

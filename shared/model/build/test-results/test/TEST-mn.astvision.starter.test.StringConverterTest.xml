@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="mn.astvision.starter.test.StringConverterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-11-27T09:04:11" hostname="DESKTOP-CULOKV3" time="0.04">
-  <properties/>
-  <testcase name="testStringToUTF16ConvertTest()" classname="mn.astvision.starter.test.StringConverterTest" time="0.04"/>
-  <system-out><![CDATA[17:04:11.602 [Test worker] INFO mn.astvision.starter.test.StringConverterTest -- String UTF-16 hex -> \u0061\u0073\u0061\u0073\u0064\u0020\u0061\u0073\u0064\u0021\u0021
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

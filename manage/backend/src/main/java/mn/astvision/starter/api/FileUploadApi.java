@@ -22,7 +22,7 @@ import java.util.Map;
  * @author digz6666
  */
 @Slf4j
-@Secured({"ROLE_DEFAULT"})
+//@Secured({"ROLE_DEFAULT"})
 @RestController
 @RequestMapping("/v1/file")
 @RequiredArgsConstructor

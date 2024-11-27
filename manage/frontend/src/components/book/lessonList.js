@@ -29,6 +29,8 @@ const LessonList = observer(({topicId}) => {
   const [_modalOpenLesson, setModalOpenLesson] = useState(false)
   const [data, setData] = useState([])
   const [editData, setEditData] = useState(false)
+  const [pdfUrl, setPdfUrl] = useState('')
+  const [isModalVisible, setIsModalVisible] = useState(false)
 
   useEffect(() => {
     if(session?.token && topicId)
@@ -192,7 +194,13 @@ const LessonList = observer(({topicId}) => {
         message.error(`Дасгал бүртгэхэд алдаа гарлаа: ${e.message}`)
       })
   }
-
+  const handleModalOpenPdf = (url) => {
+    setPdfUrl(url) 
+    setIsModalVisible(true)
+  }
+  const handleModalClose = () => {
+    setIsModalVisible(false)
+  }
   const exerciseColumns = [
     {
       title: '№',
@@ -207,6 +215,25 @@ const LessonList = observer(({topicId}) => {
       key: 'exercise',
       width: 140,
       editable: true,
+    },
+    {
+      title: 'Pdf файл',
+      dataIndex: 'pdf',
+      render: (pdf) => {
+        if (pdf && pdf.length > 0 && pdf[0].url) {
+          const fileUrl = pdf[0].url
+          const fileExtension = fileUrl.split('.').pop().toLowerCase()
+          if (fileExtension === 'pdf') {
+            return (
+              <Button type='link' onClick={() => handleModalOpenPdf(fileUrl)}>
+                Үзэх
+              </Button>
+            )
+          }
+          return <span>Төрөл тодорхойгүй</span>
+        }
+        return <span>PDF файл байхгүй</span>
+      },
     },
     ...(checkAuthRole('ROLE_OXFORD_THINKERS_MANAGE', session?.applicationRoles)
       ? [
@@ -528,7 +555,25 @@ const LessonList = observer(({topicId}) => {
                   {...exerciseStore?.data?.pagination, showQuickJumper: true, showSizeChanger: true} || []
                 }
               />
+               <div>
+            
+            <Modal
+              title='PDF файл'
+              visible={isModalVisible}
+              onCancel={handleModalClose}
+              footer={null}
+              width='80%' 
+            >
+              <iframe
+                src={pdfUrl}
+                width='100%'
+                height='500px'
+                title='PDF Viewer'
+              />
+            </Modal>
+          </div>
             </div>
+            
           )}
         </Modal>
       }
