@@ -30,6 +30,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.time.Duration;
 import java.util.Map;
+
 @Slf4j
 @Service
 @RequiredArgsConstructor
@@ -52,16 +53,16 @@ public class S3BucketService {
         StaticCredentialsProvider credentialsProvider = StaticCredentialsProvider.create(awsCreds);
 
         s3Client = S3Client.builder()
-                .region(Region.AP_SOUTHEAST_1)
+                .region(Region.EU_NORTH_1)
                 .credentialsProvider(credentialsProvider)
                 .build();
 
         s3Utilities = S3Utilities.builder()
-                .region(Region.AP_SOUTHEAST_1)
+                .region(Region.EU_NORTH_1)
                 .build();
 
         s3Presigner = S3Presigner.builder()
-                .region(Region.AP_SOUTHEAST_1)
+                .region(Region.EU_NORTH_1)
                 .credentialsProvider(credentialsProvider)
                 .build();
     }
@@ -262,7 +263,7 @@ public class S3BucketService {
         String fileKey = fileUrl.replace(
                 "https://"
                         + s3Properties.getBucket()
-                        + ".s3.ap-southeast-1.amazonaws.com/",
+                        + ".s3.eu-north-1.amazonaws.com/",
                 "");
         if (!ObjectUtils.isEmpty(s3Properties.getCloudFrontUrl()))
             fileKey = fileKey.replace(s3Properties.getCloudFrontUrl(), "");

@@ -80,6 +80,7 @@ public class ExerciseApi extends BaseController {
         Exercise exercise = exerciseOptional.get();
         exercise.setAudio(updateRequest.getAudio());
         exercise.setVideo(updateRequest.getVideo());
+        exercise.setPdf(updateRequest.getPdf());
         exercise.setExercise(updateRequest.getExercise());
         exerciseRepository.save(exercise);
 

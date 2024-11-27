@@ -18,17 +18,18 @@ import software.amazon.awssdk.services.s3.S3Client;
 public class AwsS3Config {
 
     private final AwsS3Properties awsS3Properties;
-
+    //test
     @Bean
     public S3Client s3Client() {
         final AwsCredentialsProvider credentials = StaticCredentialsProvider.create(
                 AwsBasicCredentials.create(
                         this.awsS3Properties.getAccessKey(),
-                        this.awsS3Properties.getSecretKey()));
+                        this.awsS3Properties.getSecretKey())
+        );
 
         return S3Client.builder()
                 .credentialsProvider(credentials)
-                .region(Region.AP_SOUTHEAST_1)
+                .region(Region.EU_NORTH_1)
                 .build();
     }
 
@@ -41,7 +42,7 @@ public class AwsS3Config {
 
         return S3AsyncClient.builder()
                 .credentialsProvider(credentials)
-                .region(Region.AP_SOUTHEAST_1)
+                .region(Region.EU_NORTH_1)
                 .build();
     }
 }

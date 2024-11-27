@@ -20,4 +20,5 @@ public class Exercise extends BaseEntityWithUser {
     private String exercise;
     private List<FileData> video;
     private List<FileData> audio;
+    private List<FileData> pdf;
 }
