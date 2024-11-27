@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="mn.astvision.starter.twofa.TwoFATest" tests="3" skipped="3" failures="0" errors="0" timestamp="2024-10-08T04:20:06" hostname="Enkh-Uilss-MacBook-Pro.local" time="0.002">
+<testsuite name="mn.astvision.starter.twofa.TwoFATest" tests="3" skipped="3" failures="0" errors="0" timestamp="2024-11-27T09:04:12" hostname="DESKTOP-CULOKV3" time="0.003">
   <properties/>
   <testcase name="testTOTPTest()" classname="mn.astvision.starter.twofa.TwoFATest" time="0.0">
     <skipped/>
@@ -7,7 +7,7 @@
   <testcase name="testTOTPAuthUriTest()" classname="mn.astvision.starter.twofa.TwoFATest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testTOTPGeneratorTest()" classname="mn.astvision.starter.twofa.TwoFATest" time="0.0">
+  <testcase name="testTOTPGeneratorTest()" classname="mn.astvision.starter.twofa.TwoFATest" time="0.001">
     <skipped/>
   </testcase>
   <system-out><![CDATA[]]></system-out>

@@ -18,10 +18,10 @@ include 'shared:redis'
 include 'shared:socket'
 include 'shared:web'
 
-//include 'aws:aws-common'
-//include 'aws:aws-rekognition'
-//include 'aws:aws-s3'
-//include 'aws:aws-sqs-ses'
+include 'aws:aws-common'
+include 'aws:aws-rekognition'
+include 'aws:aws-s3'
+include 'aws:aws-sqs-ses'
 
 include 'apis:analytics-api'
 
@@ -37,4 +37,4 @@ include 'portal:backend'
 include 'notification:notification-api'
 include 'notification:notification-service'
 
-//include 'portal:backend'
+include 'portal:backend'

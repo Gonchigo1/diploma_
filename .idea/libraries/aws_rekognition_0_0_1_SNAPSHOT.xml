@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="aws-rekognition-0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/aws/aws-rekognition/build/libs/aws-rekognition-0.0.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="aws-s3-0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/aws/aws-s3/build/libs/aws-s3-0.0.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
