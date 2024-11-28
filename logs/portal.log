@@ -134,3 +134,6 @@ Action:
 
 Consider defining a bean of type 'mn.astvision.starter.dto.MoveFileRequest' in your configuration.
 
+2024-11-28 14:30:41 INFO  m.a.starter.StarterPortalApplication - Starting StarterPortalApplication using Java 21.0.5 with PID 15069 (/home/eshop/Documents/GitHub/diploma_/portal/backend/build/classes/java/main started by eshop in /home/eshop/Documents/GitHub/diploma_)
+2024-11-28 14:30:41 DEBUG m.a.starter.StarterPortalApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-11-28 14:30:41 INFO  m.a.starter.StarterPortalApplication - No active profile set, falling back to 1 default profile: "default"

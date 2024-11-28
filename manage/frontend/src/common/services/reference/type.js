@@ -1,6 +1,12 @@
-import {getApiUrl} from '../../base'
-import {toQueryString} from '../../util/queryString'
-import {jsonRequestWithToken} from '../../util/request'
+import {
+  getApiUrl
+} from '../../base'
+import {
+  toQueryString
+} from '../../util/queryString'
+import {
+  jsonRequestWithToken
+} from '../../util/request'
 
 const baseUrl = '/v1/reference-type'
 
@@ -28,6 +34,6 @@ export async function update(params, token) {
   return jsonRequestWithToken(getApiUrl() + `${baseUrl}/update`, 'POST', token, JSON.stringify(params))
 }
 
-export async function deleteOne (params, token) {
+export async function deleteOne(params, token) {
   return jsonRequestWithToken(getApiUrl() + `${baseUrl}/delete?${toQueryString(params)}`, 'POST', token)
 }

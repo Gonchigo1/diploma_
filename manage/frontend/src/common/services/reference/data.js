@@ -1,6 +1,12 @@
-import {getApiUrl} from '../../base'
-import {toQueryString} from '../../util/queryString'
-import {jsonRequestWithToken} from '../../util/request'
+import {
+  getApiUrl
+} from '../../base'
+import {
+  toQueryString
+} from '../../util/queryString'
+import {
+  jsonRequestWithToken
+} from '../../util/request'
 
 const baseUrl = 'v1/reference-data'
 

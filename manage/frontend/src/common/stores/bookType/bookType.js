@@ -1,5 +1,17 @@
-import {observable, action, makeAutoObservable} from 'mobx'
-import {list, select, create, update, deleteOne, get, getForCode} from '../../services/bookType/bookType'
+import {
+  observable,
+  action,
+  makeAutoObservable
+} from 'mobx'
+import {
+  list,
+  select,
+  create,
+  update,
+  deleteOne,
+  get,
+  getForCode
+} from '../../services/bookType/bookType'
 
 class BookTypeStore {
   @observable data = {
