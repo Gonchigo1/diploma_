@@ -1,7 +1,9 @@
 import NextAuth from 'next-auth'
 import CredentialsProvider from 'next-auth/providers/credentials'
 
-import {login} from '../../../common/services/auth/auth'
+import {
+  login
+} from '../../../common/services/auth/auth'
 
 // For more information on each option (and a full list of options) go to
 // https://next-auth.js.org/configuration/options
@@ -21,7 +23,7 @@ export default NextAuth({
       // },
       async authorize(credentials, _req) {
         // console.log(credentials, 'credentials')
-        return login(credentials?.username, credentials?.password)
+        return login(credentials ?.username, credentials ?.password)
           .then(response => {
             // console.log(response, 'login response')
             if (response.result === true && response.data) {
@@ -96,7 +98,10 @@ export default NextAuth({
     // async signIn({ user, account, profile, email, credentials }) { return true },
     // async redirect({ url, baseUrl }) { return baseUrl },
     // async jwt({ token, user, account, profile, isNewUser }) { return token }
-    jwt: ({token, user}) => {
+    jwt: ({
+      token,
+      user
+    }) => {
       // console.log(token, 'token2')
       // console.log(user, 'userData')
       if (user) {
@@ -106,19 +111,23 @@ export default NextAuth({
 
       return token
     },
-    async session({session, token, _user}) {
+    async session({
+      session,
+      token,
+      _user
+    }) {
       // console.log(token, 'token')
       if (token) {
         // console.log(token?.user, 'token user')
         session.user = {
-          name: token?.user?.fullName,
-          email: token?.user?.email,
-          image: token?.user?.profileImageUrl,
+          name: token ?.user ?.fullName,
+          email: token ?.user ?.email,
+          image: token ?.user ?.profileImageUrl,
         }
         // session.expires = token?.user.expires
-        session.token = token?.token
-        session.businessRole = token?.user?.businessRole?.role
-        session.applicationRoles = token?.user?.businessRole?.applicationRoles
+        session.token = token ?.token
+        session.businessRole = token ?.user ?.businessRole ?.role
+        session.applicationRoles = token ?.user ?.businessRole ?.applicationRoles
       }
       // console.log(session, 'session')
       return session

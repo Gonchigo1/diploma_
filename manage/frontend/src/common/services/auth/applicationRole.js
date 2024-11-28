@@ -1,5 +1,9 @@
-import {getApiUrl} from '../../base'
-import {jsonRequestWithToken} from '../../util/request'
+import {
+  getApiUrl
+} from '../../base'
+import {
+  jsonRequestWithToken
+} from '../../util/request'
 
 const baseUrl = '/v1/application-role'
 

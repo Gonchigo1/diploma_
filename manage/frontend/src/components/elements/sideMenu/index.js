@@ -29,14 +29,14 @@ const menuItemTemplate = [
     key: 'Book',
     label: 'Сургалт',
     icon: <BookOutlined/>,
-    role: ['ROLE_BUSINESS_ROLE_VIEW', 'ROLE_USER_VIEW'],
+    role: ['ROLE_BUSINESS_ROLE_VIEW', 'ROLE_USER_VIEW','ROLE_LOCALE_VIEW', 'ROLE_OXFORD_THINKERS_VIEW','ROLE_OXFORD_THINKERS_MANAGE'],
     children: [
       {
         key: 'BookList',
         label: <Link href={'/book'}>Жагсаалт</Link>,
         title: 'Жагсаалт',
         icon: <BookOutlined/>,
-        role: ['ROLE_BUSINESS_ROLE_VIEW', 'ROLE_USER_VIEW'],
+        role: ['ROLE_BUSINESS_ROLE_VIEW', 'ROLE_USER_VIEW','ROLE_LOCALE_VIEW', 'ROLE_OXFORD_THINKERS_VIEW','ROLE_OXFORD_THINKERS_MANAGE'],
       }
     ],
   },
@@ -44,14 +44,14 @@ const menuItemTemplate = [
     key: 'classification',
     label: 'Ангилалын сан',
     icon: <OrderedListOutlined/>,
-    role: ['ROLE_LOCALE_VIEW'],
+    role: ['ROLE_BUSINESS_ROLE_VIEW', 'ROLE_USER_VIEW','ROLE_LOCALE_VIEW', 'ROLE_OXFORD_THINKERS_VIEW','ROLE_OXFORD_THINKERS_MANAGE'],
     children: [
       {
         key: 'classification-book-type',
         label: <Link href={'/classification/book-type'}>Сургалтын төрөл</Link>,
         title: 'Сургалтын төрөл',
         icon: <OrderedListOutlined/>,
-        role: 'ROLE_LOCALE_VIEW'
+        role: ['ROLE_BUSINESS_ROLE_VIEW', 'ROLE_USER_VIEW','ROLE_LOCALE_VIEW', 'ROLE_OXFORD_THINKERS_VIEW','ROLE_OXFORD_THINKERS_MANAGE'],
       }
     ],
   },
